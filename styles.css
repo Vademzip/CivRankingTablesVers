@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    background-color: rgb(102, 88, 57);
+    color: white;
+
+    font: normal 18px  'Roboto', sans-serif ;
+}
+a{
+    color:orange;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline  ;
+}
+h1{
+    font-style:normal;
+    border: 10mm rgba(255, 255, 255, 0.7);
+    border-style:groove;
+    max-width: 475px;
+    margin: auto
+    ;
+}
+.avatar{
+    width: 350px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 0, 25);
+}
+
+.info p{
+    color: whitesmoke;
+    margin: 7px;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    
+}
+.container{
+max-width: 100%;
+margin:auto;
+}
+
+/* .prime{
+    background: rgb(109, 21, 21);
+padding: 20px;
+ border-radius: 10%;
+ border: 4mm ridge rgba(255, 255, 255, 0.7);
+ width: 500px;
+} */
+
+/* .box-model > div{
+background: black;
+height: 200px;
+width: 25%;
+float:left;
+border:red;
+} */
+
+
+.tablica{
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+   
+    
+}
+.primechanie{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.warning{
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.bg-yellow{
+    background: rgb(77, 77, 25);
+}
+
+.bg-blue{
+    background: rgb(25, 18, 65);
+}
+
+.bg-red{
+    background: rgb(129, 32, 32);
+}
