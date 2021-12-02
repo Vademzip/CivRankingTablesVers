@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+        <!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
         <title>CivInfo</title>
@@ -6,71 +6,77 @@
     </head>
     <body>
         <div class="container">
-        <div class= "info">
-            <img src="https://i.ytimg.com/vi/vPdAxoTXEbA/maxresdefault.jpg" width="300" alt ="Путин съел фотку" class="avatar" >
+           
+            <!-- <img src="https://i.ytimg.com/vi/vPdAxoTXEbA/maxresdefault.jpg"  alt ="Путин съел фотку" class="avatar" > -->
+           
             <h1>Таблица топ игроков в циву</h1>
-            <p> На этом сайте будет располагаться информация о самых сильных игроках <a href = "https://discord.gg/3VwTaXrs" target="_blank">  <strong> нашего коммьюнити </strong></a> </p>
-            <p><em> Информация сделана на основе отчетов игроков</em></p>
-            <div class="primechanie bg-yellow">
-            <h3> Примечания : </h3>
-
-           <p> Файтер играет на имбе, мы его не учитываем </p> 
-           <p><em>  Ваде как админу предаставлены привелигии в виде увеличенного в 100 раз опыта</em></p>
-        </div>
+           
+            <div class= "info">
+                <p> На этом сайте будет располагаться информация о самых сильных игроках <a href = "https://discord.gg/3VwTaXrs" target="_blank">  <strong> нашего коммьюнити </strong></a> </p>
+                <p><em> Информация сделана на основе отчетов игроков</em></p>
             </div>
-        <br>
-
-        <div class="tablica bg-red">
-      
-        
-        <h2> Таблица </h2>
+            
+            <div class="primechanie bg-yellow">
+                <h3> Примечания : </h3>
+                 <p> Файтер играет на имбе, мы его не учитываем </p> 
+                <p><em>  Ваде как админу предаставлены привелигии в виде увеличенного в 100 раз опыта</em></p>
+            </div>
        
-        <table border="2">
-    <tr>
-        <th>Имя</th>
-        <th>Кол-во игр</th>
-        <th>Кол-во побед</th>
-    </tr>
-
-            <tr> <td>Вадем </td>
-                <td> 17 игр </td>
-                <td> 25 побед </td>
-                </tr>
-
-                <tr> <td>Файтер </td>
-                    <td> 34 игры </td>
-                    <td> 3 победы </td>
-                    </tr>
-        </table>
-    
-    </div>
+            <div class="tablica bg-red">
+                <h2> Таблица </h2>
+                    <table class="table">
+                            <tr> 
+                                <td>Вадем </td>
+                                <td> 17 игр </td>
+                                <td> 25 побед </td>
+                            </tr>
+                            <tr> 
+                                <td>Симпл </td>
+                                <td> 24 игры </td>
+                                <td> 9 побед </td>
+                            </tr>
+                            <tr> 
+                                <td>Панда </td>
+                                <td> 5 игр </td>
+                                <td> 5 побед </td>
+                            </tr>
+                            <tr>
+                                <td>Файтер </td>
+                                <td> 34 игры </td>
+                                <td> 3 победы </td>
+                            </tr>
+                    </table>
+            </div>
 
         
-             
-        
-   
+            <div class="warning bg-blue">
+                <ol type = "1">
+                    <li>Бот написан Вадемом поэтому он корявый</li>
+                    <li>Так как бот корявый, не вся инфа верна</li>
+                    <li>Так как не вся инфа верна, ей не обязательно верить</li>
+                 </ol>
 
-<div class="warning bg-blue">
-            <ol type = "1">
-                <li>Бот написан Вадемом поэтому он корявый</li>
-                <li>Так как бот корявый, не вся инфа верна</li>
-                <li>Так как не вся инфа верна, ей не обязательно верить</li>
-            </ol>
-
-        </div>
-
-            <h2> Документация и прочая хрень </h2>
-            <a href="doc.html"> Прочитать </a>
-
-            <h2> Позвонить побалакать</h2>
-            <form>
-                <label for = "name" >Ваше Имя </label>
-                <input type="text"  id = "name" placeholder= "вот сюда">
-    <br/> <br/><br/><br/><br/>
-                <input type="email";
-          
-
-            </form>
+            </div>
+            <div class=" Documentation bg-green">
+                <h2> Документация и прочая хрень </h2>
+                
+                <a href="doc.html"> Прочитать </a>
+            </div>  
+            <div class="contact">
+                <h2> Позвонить побалакать</h2>
+                <form>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for = "name" >Ваше Имя </label>
+                            <input type="text"  id = "name" placeholder= "вот сюда"{color : black} >
+                        </div>
+                        <div class="form-group">
+                            <label for = "mail" >Ваш email </label>
+                            <input type="email" id = "mail" placeholder="example@mail.ru" >
+                        </div>     
+                    </div>     
+                </form>
+            </div>
             <div class="box-model">
                  <div> </div>
                  <div> </div>
@@ -78,7 +84,7 @@
                  <div> </div>
             </div>  
         </div>
-        <div style="margin-bottom: 500px;"> 
-        </div>
+            <div style="margin-bottom: 500px;"> 
+            </div>
     </body>
     </html>

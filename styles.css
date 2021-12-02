@@ -8,7 +8,7 @@ body{
 }
 a{
     color:orange;
-    text-decoration: none;
+    text-decoration: nonex;
 }
 a:hover{
     color: blue;
@@ -16,66 +16,125 @@ a:hover{
 }
 h1{
     font-style:normal;
-    border: 10mm rgba(255, 255, 255, 0.7);
-    border-style:groove;
+    border: 2mm rgba(255, 255, 255, 0.7);
+    border-style:hidden ;
+
     max-width: 475px;
     margin: auto
     ;
 }
 .avatar{
-    width: 350px;
+    
     border-radius: 10%;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 0, 25);
+   margin: auto;
+    /*box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 0, 25);*/
 }
 
 .info p{
     color: whitesmoke;
-    margin: 7px;
+    margin-left: auto;
+    margin-bottom: 10px;
     font-style: italic;
     font-weight: bold;
     /* text-decoration: underline; */
     letter-spacing: 2px;
+    margin: 10px;
+    text-align: center;
     
 }
 .container{
-max-width: 100%;
-margin:auto;
+    width: 50%;
+    margin: auto;
+
 }
 
-/* .prime{
-    background: rgb(109, 21, 21);
-padding: 20px;
- border-radius: 10%;
- border: 4mm ridge rgba(255, 255, 255, 0.7);
- width: 500px;
-} */
-
-/* .box-model > div{
-background: black;
-height: 200px;
-width: 25%;
-float:left;
-border:red;
-} */
 
 
 .tablica{
+    text-align: center;
     padding: 15px 20px;
     margin-bottom: 15px;
     border-radius: 20px;
-   
+   font-size: 15px;
     
 }
+
+.table{
+    width: 100%;
+    font-size: 20px;
+}
+.table td{
+    padding-bottom: 5px;
+}
+
 .primechanie{
+    text-align: center;
     border-radius: 20px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 .warning{
-    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
     border-radius: 20px;
+    margin-bottom: 15px;
 }
+.warning li{
+    padding-bottom: 10px;
+}
+
+.Documentation{
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+.Documentation a{
+    font-size: 25px;
+}
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color:palegreen;
+}
+
+.form-group input{
+    
+    box-sizing: border-box;
+    border: none;
+     background: transparent; 
+    color : #000;
+   border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: black;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+
+
 
 .bg-yellow{
     background: rgb(77, 77, 25);
@@ -87,4 +146,8 @@ border:red;
 
 .bg-red{
     background: rgb(129, 32, 32);
+}
+
+.bg-green{
+    background: rgb(21, 155, 165);
 }
